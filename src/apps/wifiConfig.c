@@ -69,7 +69,7 @@ const char * wifiConfigCGIhandler(int iIndex, int iNumParams, char *pcParam[], c
 					//if pcParmeter contains "led", then one of the LED check boxes has been set on
 					PRINTF("paramIdx %d: <key>=<value>: %s=%s\n",i,pcParam[i],pcValue[i]);
 						//see if checkbox for LED 1 has been set
-						if(strcmp(pcValue[0], "Makihome") == 0 && strcmp(pcValue[1], "makihome2021"))
+						if(strcmp(pcValue[0], "Makihome") == 0 && strcmp(pcValue[1], "makihome2021") == 0)
 						{
 							// switch led 1 ON if 1
 							//BSP_LED_Toggle(LED2);
