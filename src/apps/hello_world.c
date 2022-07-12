@@ -58,7 +58,7 @@ void customer_hello_world_1(void *arg)
 	PRINTF("\n\n");
 	httpd_init();
 	myCGIinit();//edit vuiiiii
-	vTaskDelete(NULL);
+	vTaskDelete(NULL);//helo
 }
 
 void customer_hello_world_2(void *arg)
