@@ -57,7 +57,7 @@ void customer_hello_world_1(void *arg)
 	PRINTF(">>> Hello World #1 ( Non network dependent application ) !!!\n");
 	PRINTF("\n\n");
 	httpd_init();
-	myCGIinit();
+	myCGIinit();//edit vuiiiii
 	vTaskDelete(NULL);
 }
 
