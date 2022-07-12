@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>da16200</name>
+	<name>da16200_dev</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -93,12 +93,12 @@
 		<link>
 			<name>customer_app/include</name>
 			<type>2</type>
-			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/apps/da16200/get_started/include</locationURI>
+			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/apps/da16200/vui/include</locationURI>
 		</link>
 		<link>
 			<name>customer_app/src</name>
 			<type>2</type>
-			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/apps/da16200/get_started/src</locationURI>			
+			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/apps/da16200/vui/src</locationURI>			
 		</link>
 		<link>
 			<name>core/libraries/3rdparty</name>
